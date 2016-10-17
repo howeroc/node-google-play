@@ -14,6 +14,7 @@ function downloadToFile (pkg, vc) {
 }
 
 var argv = require('minimist')(process.argv.slice(2));
-var pkg = argv._[0] || argv.p || 'com.MediaConverter';
+// var pkg = argv._[0] || argv.p || 'com.tencent.mm';
+var pkg = 'com.tencent.mm';
 var vc = argv._[1] || argv.v;
 downloadToFile(pkg, vc);
