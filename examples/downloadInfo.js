@@ -15,4 +15,4 @@ function getDownloadInfo (pkg) {
     });
 }
 
-getDownloadInfo('air.WatchESPN');
+getDownloadInfo('com.tencent.mm');
